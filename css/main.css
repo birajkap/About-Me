@@ -1,0 +1,62 @@
+.centered {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+html, body {
+    height: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: "PT Sans", sans-serif;
+}
+
+#wrap {
+    min-height: 100%;
+}
+
+#main {
+    overflow:auto;
+    padding-bottom:150px; /* this needs to be bigger than footer height*/
+}
+
+.footer {
+    position: relative;
+    margin-top: -150px; /* negative value of footer height */
+    height: 150px;
+    clear:both;
+    padding-top:20px;
+}
+
+.big {
+    font-size: 1.2em;
+}
+
+.small-img {
+    height: 200px;
+}
+
+.medium-img {
+    height: 400px;
+}
+body { 
+	font-family: 'Lora', Arial, serif; 
+}
+a {
+    font-size: 1.1em;
+    color: #4A708B;
+    target-name:new;
+    target-new:tab;
+}
+
+.title a {
+    font-size: 1em;
+    color: #000000;
+    text-decoration: none;
+}
+
+.blog-container {
+    font-size: 1.3em;
+    padding-left: 10%;
+    padding-right: 10%;
+}
